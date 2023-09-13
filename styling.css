@@ -1,0 +1,68 @@
+.fas.fa-bell {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #FF5733; /* Change the color to your desired color */
+    margin-right: 10px; /* Adjust the margin to separate it from other navbar elements */
+}
+.logotext {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    cursor: pointer;
+    padding: 10px 10px 10px 0; /* Add right padding to create space */
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+/* Increase font size of navbarNav */
+#navbarNav {
+    font-size: 18px; /* Adjust the font size as needed */
+}
+/* Style the active page link */
+.nav-item.active a {
+    font-weight: bold; /* Change the style as needed */
+    color: #007BFF; /* Change the color as needed */
+}
+/* Add margin to the top of the container */
+.container-top-margin {
+    margin-top: 40px;
+}
+.inbox-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.email {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.email-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email-sender {
+    font-weight: bold;
+}
+
+.email-subject {
+    color: #007BFF;
+}
+
+.email-content {
+    margin-top: 10px;
+}
